@@ -328,12 +328,12 @@ After optimization,
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
 | DC Gain | 62.30 dB | 66.63 dB |
-| Gain Bandwidth | 25 MHz | 25 MHz |
+| Gain Bandwidth | 24 MHz | 24 MHz |
 | Phase Margin | 68° | 68° |
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
 # Bandwidth Optimization
-- [Compensation Capacitor (800 fF)](images/cc_is800fF_PM_68deg.png)
+- [Compensation Capacitor (800 fF)](images/cc_is_800fF_PM_68deg.png)
 - [Compensation Capacitor (600 fF)](images/cc_is600fF_Phasemargin_63deg.png)
 
 Initially,
@@ -346,7 +346,7 @@ After confirming stable operation, the compensation capacitor was reduced to
 
 > **Cc = 600 fF**
 
-This increased the Gain Bandwidth Product to 30 MHz while maintaining the required phase margin.
+This increased the Gain Bandwidth Product to 30 MHz while maintaining the required phase margin near 63deg.
 
 ---
 
@@ -362,13 +362,13 @@ This increased the Gain Bandwidth Product to 30 MHz while maintaining the requir
 
 | Parameter | Final Value |
 |-----------|------------:|
-| DC Gain | 71.72 dB |
+| DC Gain | 72 dB |
 | Gain Bandwidth | 30 MHz |
 | Phase Margin | 62.5° |
 | Slew Rate | 26 V/µs |
 | Load Capacitance | 2 pF |
 | Compensation Capacitor | 600 fF |
-| Power Dissipation | 471.6 µW |
+| Power Dissipation | 470 µW |
 
 ---
 
