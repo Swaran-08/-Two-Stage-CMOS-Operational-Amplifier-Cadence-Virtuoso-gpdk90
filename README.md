@@ -304,8 +304,8 @@ The analytically calculated transistor dimensions were verified through AC, DC a
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
 | DC Gain | 54.05 dB | 64.50 dB |
-| First Stage Gain | 25.66 dB | - |
-| Second Stage Gain | 28.39 dB | - |
+| First Stage Gain | 25.66 dB | 34.32dB |
+| Second Stage Gain | 28.39 dB | 30.1dB |
 
 The amplifier satisfied the bandwidth and stability requirements, but the gain at **VCM = 1.6 V** was still below the target value.
 
