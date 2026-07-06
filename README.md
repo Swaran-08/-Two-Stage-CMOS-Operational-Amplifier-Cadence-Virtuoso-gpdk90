@@ -154,53 +154,47 @@ The first-stage amplifier was designed using the following specifications.
 
 The tail current was determined from the slew-rate specification.
 
-\[
-I=C\frac{dV}{dt}
-\]
+**Current equation**
 
-Hence,
-
-\[
-SR=\frac{I_5}{C_L}
-\]
-
-During the maximum positive output transition:
-
-- M1 turns OFF.
-- M2 carries the entire tail current.
-- M3 also turns OFF due to the current mirror action.
-- The entire tail current charges the load capacitor.
+> I = C × (dV/dt)
 
 Therefore,
 
-\[
-I_5 = SR \times C_L
-\]
+> Slew Rate (SR) = I₅ / C_L
+
+During the maximum positive output transition,
+
+- M1 turns OFF.
+- M2 carries the entire tail current.
+- M3 also turns OFF due to current mirror action.
+- The entire tail current charges the load capacitor.
+
+Hence,
+
+> I₅ = SR × C_L
 
 Using
 
-- \(SR=5~V/\mu s\)
-- \(C_L=10~pF\)
+- SR = **5 V/µs**
+- C_L = **10 pF**
 
-the required tail current is
+the required tail current becomes
 
-\[
-I_5 = 50~\mu A
-\]
+> **I₅ = 50 µA**
 
-This current is used to size all the remaining transistors of the first stage.
+This current is used for sizing the remaining transistors of the first stage.
 
 ---
 
 # Process Parameter Extraction
 
-The process parameters required for hand calculations were extracted from simple DC simulations.
+The process parameters required for transistor sizing were extracted using simple DC simulations.
 
 | Parameter | Value |
 |-----------|------:|
-| \(\mu_nC_{ox}\) | 316 µA/V² |
-| \(\mu_pC_{ox}\) | 165 µA/V² |
-| \(V_{TN}\) | ≈ 0.2 V |
-| \(V_{TP}\) | ≈ 0.2 V |
+| μnCox | 316 µA/V² |
+| μpCox | 165 µA/V² |
+| VTN | ≈ 0.2 V |
+| VTP | ≈ 0.2 V |
 
-These values were used throughout the complete design for transistor sizing.
+These parameters were used throughout the transistor sizing calculations.
