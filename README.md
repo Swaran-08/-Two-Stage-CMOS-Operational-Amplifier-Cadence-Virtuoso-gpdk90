@@ -329,7 +329,7 @@ After optimization,
 |-----------|------------:|------------:|
 | DC Gain | 62.30 dB | 66.63 dB |
 | Gain Bandwidth | 25 MHz | 25 MHz |
-| Phase Margin | 64° | 64° |
+| Phase Margin | 68° | 68° |
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
 # Bandwidth Optimization
