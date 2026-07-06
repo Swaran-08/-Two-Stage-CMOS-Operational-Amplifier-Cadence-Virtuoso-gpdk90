@@ -22,7 +22,6 @@ The objective of this project was to design a stable two-stage CMOS Operational 
 | ICMR− | 0.8 V |
 | Load Capacitance | 2 pF |
 | Power Dissipation | ≤ 500 µW |
-| Channel Length | 500 nm |
 
 ---
 
