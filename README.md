@@ -327,7 +327,7 @@ After optimization,
   
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
-| DC Gain | 62.30 dB | 66.63 dB |
+| DC Gain | 70.10 dB | 71.68 dB |
 | Gain Bandwidth | 24 MHz | 24 MHz |
 | Phase Margin | 68° | 68° |
 
