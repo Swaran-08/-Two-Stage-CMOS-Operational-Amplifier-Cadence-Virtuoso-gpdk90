@@ -326,7 +326,7 @@ After optimization,
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
 | DC Gain | 62.30 dB | 66.63 dB |
-| Gain Bandwidth | 30 MHz | 30 MHz |
+| Gain Bandwidth | 25 MHz | 25 MHz |
 | Phase Margin | 64° | 64° |
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
@@ -342,7 +342,7 @@ After confirming stable operation, the compensation capacitor was reduced to
 
 > **Cc = 600 fF**
 
-This increased the Gain Bandwidth Product while maintaining the required phase margin.
+This increased the Gain Bandwidth Product to 30 MHz while maintaining the required phase margin.
 
 ---
 
