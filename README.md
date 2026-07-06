@@ -324,6 +324,7 @@ To improve the gain,
 After optimization,
 - [Final Amplified Signal](images/final_amplified_signal.png)
 - [Final Gain and Phase Margin](images/final_gain_and_phasemargin.png)
+  
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
 | DC Gain | 62.30 dB | 66.63 dB |
@@ -332,7 +333,7 @@ After optimization,
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
 # Bandwidth Optimization
-- [Compensation Capacitor (500 fF)](images/cc_is500fF.png)
+- [Compensation Capacitor (800 fF)](images/cc_is500fF.png)
 - [Compensation Capacitor (600 fF)](images/cc_is600fF.png)
 
 Initially,
