@@ -85,7 +85,6 @@ The objective was to understand
 - Slew Rate limitation
 - Small-signal gain
 - Transconductance sizing
-- Current distribution inside the amplifier
 
 This first-stage analysis establishes the transistor dimensions and provides insight into the limitations that arise when another gain stage is connected.
 
