@@ -333,8 +333,8 @@ After optimization,
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
 # Bandwidth Optimization
-- [Compensation Capacitor (800 fF)](images/cc_is500fF.png)
-- [Compensation Capacitor (600 fF)](images/cc_is600fF.png)
+- [Compensation Capacitor (800 fF)](images/cc_is800fF_PM_68deg.png)
+- [Compensation Capacitor (600 fF)](images/cc_is600fF_Phasemargin_63deg.png)
 
 Initially,
 
