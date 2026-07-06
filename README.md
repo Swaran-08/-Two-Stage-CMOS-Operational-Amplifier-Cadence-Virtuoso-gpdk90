@@ -113,7 +113,7 @@ Verify First Stage Gain
 ---
 
 # Stage-1 Design
-
+- [1st Stage Schematic](images/1st_stage_schematic.png)
 The first-stage amplifier was designed using the following specifications.
 
 | Parameter | Value |
@@ -156,7 +156,7 @@ Using the MOSFET current equations and saturation conditions,
 | M1, M2 | 6.25 |
 | M3, M4 | 7.6 |
 | M5, M8 | 1.63 |
-
+- [1st Stage Gain](images/1st_stage_gain.png)
 The designed first-stage amplifier achieved an open-loop gain of approximately **39 dB**, which was insufficient for the target specification. Therefore, a second gain stage was introduced.
 # Need for a Second Gain Stage
 
@@ -201,7 +201,7 @@ Thus, the compensation capacitor was selected to satisfy both the **phase margin
 ---
 
 # Design Specifications for the Two-Stage Op-Amp
-
+- [2 Stage Schematic](images/2_stage_schematic.png)
 The complete two-stage operational amplifier was designed using the following specifications.
 
 | Parameter | Target |
@@ -322,7 +322,8 @@ To improve the gain,
 - Increasing the channel length reduced **channel length modulation**, increasing the output resistance and consequently the voltage gain.
 
 After optimization,
-
+- [Final Amplified Signal](images/final_amplified_signal.png)
+- [Final Gain and Phase Margin](images/final_gain_and_phasemargin.png)
 | Parameter | VCM = 1.6 V | VCM = 0.8 V |
 |-----------|------------:|------------:|
 | DC Gain | 62.30 dB | 66.63 dB |
@@ -331,6 +332,8 @@ After optimization,
 
 To further improve the gain, the channel length of **M1** and **M2** was also increased while maintaining the same W/L ratio. Attempts to modify **M3** and **M4** caused some transistors to leave saturation; therefore, their dimensions were retained.
 # Bandwidth Optimization
+- [Compensation Capacitor (500 fF)](images/cc_is500fF.png)
+- [Compensation Capacitor (600 fF)](images/cc_is600fF.png)
 
 Initially,
 
